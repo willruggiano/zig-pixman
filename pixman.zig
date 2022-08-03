@@ -1046,6 +1046,6 @@ extern fn pixman_composite_triangles(
 ) void;
 pub const compositeTriangles = pixman_composite_triangles;
 
-test "" {
+test {
     @import("std").testing.refAllDecls(@This());
 }
